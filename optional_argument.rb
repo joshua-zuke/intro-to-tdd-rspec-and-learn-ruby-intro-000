@@ -1,4 +1,3 @@
-def greeting (name = "Josh", food = "pie")
-  puts "Hello, #{name}! Are you hungry for some #{food}?"
+def greeting(language="Ruby", name)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
 end
-greeting "", "blueberries"
